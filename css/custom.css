@@ -6,21 +6,17 @@
 }
 
 .features-item:hover .features-circle {
-  background-color: #AB3375;
-  border-color: #8E1A59;
-}
-
-.logo img {
-    vertical-align: center;
+  border-color: rgb(242, 178, 47);
+  background-color: rgb(250, 218, 152);
 }
 
 .logo span {
-  color: #eee;
+  color: #eeeeee;
   font-weight: 300;
 }
 
 .logo {
-  color: rgb(253, 232, 230);
+  color: rgb(242, 178, 47);
   white-space: nowrap;
 }
 
@@ -46,15 +42,16 @@
     background-color: rgba(25, 25, 25, 0.5);
 }
 
-
 .signup-form .btn-side {
-  text-decoration: none;
+    width: 49%;
+    margin-right: 0.5%;
+    text-decoration: none;
 }
 
 .signup-form .btn-side:hover {
   border-color: rgb(236,234,213);
-  color: rgb(92,0,50);
-  background-color: rgb(0,140,255);
+  color: rgb(233,233,233);
+  background-color: rgb(0,0,80);
 }
 
 /* end color overrides */
